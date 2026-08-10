@@ -14,7 +14,7 @@ image: ghcr.io/nsg/{arch}-addon-camon
 startup: application
 boot: auto
 init: false
-timeout: 360
+timeout: 300
 
 ingress: true
 ingress_port: 22666
