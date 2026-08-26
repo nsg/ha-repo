@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.2
+
+- Added an optional per-camera `sub_url` for a low-resolution H.264 stream used
+  by the multi-camera grid, reducing load time and bandwidth on constrained
+  links while keeping recording, analytics, and single-camera views on the main
+  stream.
+
 ## 0.6.1
 
 - Fixed the live view stalling for several seconds when opening a camera by
