@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.3
+
+- Restyled the live timeline as a thin scrubber with motion and detection ticks,
+  and replaced per-day history maps with an inline list of recent events.
+- Updated the HTTP/2 stack to address the denial-of-service vulnerability
+  RUSTSEC-2026-0258.
+
 ## 0.6.2
 
 - Added an optional per-camera `sub_url` for a low-resolution H.264 stream used
