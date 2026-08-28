@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.4
+
+- Redesigned event lists as image-first cards, collapsing chunked runs and
+  allowing filmstrips to be scrubbed in place.
+- Showed the latest camera keyframe while the live stream loads.
+
 ## 0.6.3
 
 - Restyled the live timeline as a thin scrubber with motion and detection ticks,
