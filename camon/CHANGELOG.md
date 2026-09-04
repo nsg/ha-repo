@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0
+
+- Added per-cell minimum object sizes and an optional per-camera motion tuner
+  with shadow and automatic modes.
+- Added a live-view tuning heatmap and controls for inspecting, resetting, and
+  manually painting cell thresholds.
+- Auto-cycle event-card filmstrips while they are visible and request
+  viewport-sized live-view posters for faster loading on mobile devices.
+
 ## 0.6.4
 
 - Redesigned event lists as image-first cards, collapsing chunked runs and
