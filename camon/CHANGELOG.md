@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.1
+
+- Reduce mobile live-view work by loading only visible camera tiles and
+  processing HLS streams in workers.
+- Pause offscreen and background streams, reuse grid players after navigation,
+  and limit grid video buffers.
+- Keep the loading indicator visible until playback starts and reuse unchanged
+  web assets through cache revalidation.
+
 ## 0.7.0
 
 - Added per-cell minimum object sizes and an optional per-camera motion tuner
