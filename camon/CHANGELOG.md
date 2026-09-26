@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0
+
+- Added a `tpue` object-detection backend for Coral Edge TPU devices.
+- Added a camera order field to sort the camera list.
+- Show errors for missing or stalled video, stop serving a dead camera's last
+  segments as live, and keep live-edge seeks inside buffered media.
+- Bounded the startup archive scan by a single deadline, coalesced snapshot
+  decodes, and fetch only the event history a view shows.
+- Updated rustls past RUSTSEC-2026-0285.
+
 ## 0.7.1
 
 - Reduce mobile live-view work by loading only visible camera tiles and
