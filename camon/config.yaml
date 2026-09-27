@@ -2,7 +2,7 @@
 # The implementation and image build are maintained at https://github.com/nsg/camon.
 name: Camon
 slug: camon
-version: "0.8.0"
+version: "0.8.1"
 description: Multi-camera NVR with real-time motion/object analytics and tiered storage
 url: https://github.com/nsg/camon
 arch:

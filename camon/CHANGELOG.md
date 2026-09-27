@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.8.1
+
+- Added per-camera motion tuner thresholds, observation window, and advanced
+  adjustment controls, with 5%/1% starting defaults to validate in Shadow.
+- Tune from the camera's minimum object size and manual cell overrides, and
+  relax back to that baseline without retaining stale automatic thresholds.
+- Account for segment cadence and missing samples, reject long gaps, and align
+  learning with the midpoint cell used by motion filtering.
+- Show measured cell activity and adaptation status, and keep Shadow proposals
+  separate from applied thresholds and saved Auto history.
+
 ## 0.8.0
 
 - Added a `tpue` object-detection backend for Coral Edge TPU devices.
