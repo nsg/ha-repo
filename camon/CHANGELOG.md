@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.2
+
+- Added an `[analytics.object_detection.framing]` section to choose what the
+  detector is shown: the padded motion crop or the full frame, with
+  configurable padding, minimum crop size, and aspect ratio.
+- Optionally outline motion areas on the model's input, and detections on
+  stored thumbnails and MQTT snapshots.
+- Map detection boxes through the crop of the frame they were found in.
+
 ## 0.8.1
 
 - Added per-camera motion tuner thresholds, observation window, and advanced
