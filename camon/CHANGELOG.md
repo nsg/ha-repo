@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.4
+
+- Soften the edge of the detection mask. A masked area is no longer a block
+  of square black cells: its edge breaks up into small boxes, dark grey just
+  inside the masked cells and dimming the picture just outside them. Masked
+  cells still show nothing of the picture, to the detector or in thumbnails.
+- Fix a cropped frame leaving a row or column of pixels visible at the edge
+  of a masked cell.
+
 ## 0.8.3
 
 - With `detection_boxes` enabled, an object event's filmstrip in the events
