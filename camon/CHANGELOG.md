@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.3
+
+- With `detection_boxes` enabled, an object event's filmstrip in the events
+  view is now the frames the detector matched on, with the detections
+  outlined; they also show the motion boxes when `motion_boxes` is enabled,
+  as do the live timeline thumbnail and MQTT snapshots.
+- Blur the frame behind the loading label so a still picture is not mistaken
+  for live video.
+
 ## 0.8.2
 
 - Added an `[analytics.object_detection.framing]` section to choose what the
