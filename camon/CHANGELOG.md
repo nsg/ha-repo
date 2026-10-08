@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.0
+
+- Show each event as a strip of its four frames. An event used to be one
+  picture that cycled through its frames; now the frames sit side by side
+  on one line, oldest on the left, under the event's time, type and
+  duration. Object, movement and continuous events are all the same size,
+  and the events page looks the same on a phone and on a desktop.
+- An event with fewer than four frames leaves the remaining slots empty.
+
 ## 0.8.4
 
 - Soften the edge of the detection mask. A masked area is no longer a block
