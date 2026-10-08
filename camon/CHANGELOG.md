@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.1
+
+- Load event pictures at the size they are shown. The events list used to
+  fetch every frame at full resolution, up to 1920x1080, to draw it a few
+  hundred pixels wide; the server now scales each frame down as it is asked
+  for, so a page of events is a fraction of the download it was. This applies
+  to events already stored as well as new ones.
+
 ## 0.9.0
 
 - Show each event as a strip of its four frames. An event used to be one
