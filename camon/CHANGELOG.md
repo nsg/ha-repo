@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.2
+
+- Go back to one picture per event. The strip of four frames left each one
+  too small to make out on a phone, so an event is again a single picture
+  that steps through its frames once a second; move across it to pick a
+  frame yourself. Object events get a card of their own across the list,
+  while movement and continuous events share rows, two to a row on a phone.
+
 ## 0.9.1
 
 - Load event pictures at the size they are shown. The events list used to
